@@ -157,3 +157,72 @@
     background-color: var(--color-hover-btn);
     transition: 0.5s;
 }
+.tarjetas{
+    padding: 2em 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.tarjetas__card{
+    background-color: var(--color-primario);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 1em auto;
+}
+
+.card__img{
+    width: 100%;
+}
+.card__text{
+    display: flex;
+    flex-direction: column;
+    padding: 9px 18px;
+}
+.card__h3, .card__p{
+    color: aliceblue;
+}
+.card__p{
+    font-size: 0.85rem;
+    margin-top: 0.85em;
+    margin-bottom: 0.85em;
+}
+.card__h3{
+    font-size: 30px;
+}
+.card__span{
+    color: var(--color-secundario);
+}
+.card__btn{
+    width: max-content;
+    padding: 0.5em 2em;
+    font-size: 0.75rem;
+    border-radius: 0.75em;
+    margin-right: 10px;
+    margin-bottom: 0.75em;
+    color: aliceblue;
+    background-color: inherit;
+    border: 2px solid aliceblue;
+}
+
+.card__btn:hover{
+    background-color: var(--color-hover-btn);
+    transition: 0.5s;
+}
+
+.cards__circle {
+	background: var(--color-secundario);
+	width: 2.5em;
+	height: 2.5em;
+	font-size: 1.35rem;
+	border-radius: 50%;
+	text-align: center;
+	position: absolute;
+	top: -25px;
+	right: -25px;
+	font-weight: bolder;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
