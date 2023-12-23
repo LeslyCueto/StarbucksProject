@@ -57,3 +57,33 @@
     font-size: 3.2rem;
     color: whitesmoke;
 }
+.main{
+    width: 90%;
+    margin: 125px auto 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__content1{
+    padding-right: 5em;
+}
+
+.main__h1{
+    font-weight: bold;
+    font-size: 3.2rem;
+    line-height:1.2em; 
+}
+.main__span{
+    color: var(--color-primario);
+}
+.main__content1 .main__p{
+    font-weight: bolder;
+    font-size: 18px; 
+    margin-top: 1.5em;
+    line-height: 1.5em;
+}
+
+.main__content2 .main__img{
+    width: 20rem;
+    display: none;
+}
