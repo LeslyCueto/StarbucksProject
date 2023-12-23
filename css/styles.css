@@ -87,3 +87,19 @@
     width: 20rem;
     display: none;
 }
+.gallery{
+    background-color: var(--color-primario);
+    padding:2em 0;
+}
+.gallery__cnt{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0 0 0 1.5em;
+    justify-content: space-evenly;
+}
+.gallery__img{
+    margin-top: 1.5em;
+}
+
