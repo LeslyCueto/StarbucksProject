@@ -102,4 +102,58 @@
 .gallery__img{
     margin-top: 1.5em;
 }
+.form{
+    background: rgb(23, 23, 23);
+    justify-content: center;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
 
+.form__tittle{
+    color: var(--color-primario);
+    font-size: 1.5rem;
+    margin-top: 2em;
+}
+
+.form__content{
+    background-color: var(--color-primario);
+    justify-content: left;
+    text-align: left;
+    padding: 20px 20px;
+    margin: 2em auto 4em auto;
+}
+
+.form__content .form__correo--label{
+    font-size: 22px;
+    color:aliceblue;
+}
+
+.form__content .form__correo--email{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width:100%;
+    height: 2.5em;
+}
+
+.form__content .form__correo--textarea{
+    border-radius: 10px;
+    height: 8em;
+    width: 100%;
+}
+
+.form__btns--send{
+    margin-top: 30px;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 5px 80px;
+    background-color: var(--color-primario);
+    border-color: aliceblue;
+    color: aliceblue;
+}
+
+.form__btns--send:hover{
+    background-color: var(--color-hover-btn);
+    transition: 0.5s;
+}
